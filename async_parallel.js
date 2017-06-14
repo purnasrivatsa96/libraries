@@ -28,4 +28,5 @@ app.get('/user/:userId', function(req, res, next) {
         //Example: `locals = {user: ..., posts: [...]}`
         res.render('user-profile', locals);
     });
+
 });
